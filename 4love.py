@@ -48,7 +48,7 @@ def wechat():
             itchat.send(content, toUserName=u["UserName"])
             logger.info('send "{0}" to "{1}".'.format(content.encode('utf8'), touser.encode('utf8')))
         except: logger.error(traceback.format_exc())
-        jobqe.ack_job(x.get('ID'))
+        jobqe.ack_job(data.get('ID'))
 
 def add_msg():
     logger = get_logger('logs/add_msg.log')

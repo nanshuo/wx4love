@@ -39,7 +39,7 @@ def get_logger(name, only_msg=False):
     name = os.path.join(os.getenv('COMPINFO_LOG_PREFIX', ''), name)
     x = os.path.dirname(name)
     if x and not os.path.isdir(x): os.makedirs(x)
-    formater = logging.Formatter("%(message)s" if only_msg else "%(asctime)s - %(module)s:%(lineno)dL %(process)d [%(levelname)s]%(message)s")
+    formater = logging.Formatter("%(message)s" if only_msg else "%(asctime)s %(module)s:%(lineno)dL %(process)d [%(levelname)s]%(message)s")
     logger = logging.getLogger(name)
     logger.setLevel(logging.DEBUG)
     _handler = handlers.TimedRotatingFileHandler(name, when='D', backupCount=1000)
