@@ -15,24 +15,12 @@ WORK_DAY_TAKEOFFONNIGHT = 8
 
 FRIDAY_NIGTH = 9
 
-CALLS = [u'傻妞', u'妞', u'亲爱的', 'si', u'姐姐', u'小傻妞']
-DEFAULT_WORDS = [u"我好想你", u"miss u", u"好想你", u"你人呢", u"想你哇"]
+
 
 SPLITERS = [u'，', '', ',', ' ', u'、', '   ']
 
-GETUP =  [u'我起床啦', u'起床了', u'我起来了', u'爬起来了我']
-GETOUT = [u'我现在出门', u'已经出门啦', u'出门', u'下楼了']
-TAKEON = [u'上车了', u'坐上了', u'上了', u'车上了']
-ARRIVE = [u'到了', u'快到了', u'已经到了', u'已到', u'到啦']
-EATB = [u'我在吃早饭', u'我在吃早餐', u'买早点中', u'我在买包子', u'买早餐吃我', u'我在万家买早餐']
-EATL = [u'饭点啦', u'我们出去吃', u'我吃中饭了', u'lunch time', u'午饭了', u'正下食堂']
-EATD = [u'吃晚饭了', u'下班了你', u'夜饭开始', u'dinner time', u'吃饭了', u'去食堂']
-OFFWORK = [u'下班了', u'正下班', u'打卡中', u'等电梯下楼', u'正回去', u'上车了']
-TAKEOF = [u'下车了', u'刚下车', u'到站了', u'下车了', u'刚下车']
 
-FRIDAY_NIGTH = [u'今天早点回去', u'下班回去吃饭', u'现在下班', u'现在就回去', u'现在回']
 
-WEEKEND_MON = [u'今天去哪里玩哇', u'今天天气咋样去哪玩呢', u'出去玩吧', u'出去玩吧', u'走 出去']
 
 WORK_DAY_WORDS = [GETUP, GETOUT, TAKEON, ARRIVE, EATB, EATL, EATD, OFFWORK, TAKEOF]
 
